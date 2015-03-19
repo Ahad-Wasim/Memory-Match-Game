@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Matching Game Project </title>
+		<link rel="stylesheet" href="assets/stylesheets/main.css">
+		<script type="text/javascript" src="main.js"></script>
+		<meta charset="utf-8">
+	</head>
+
+	<body>
+		
+		<header>
+			<a href="index.html"> <img class="logo"src="http://nevermetpress.com/wp-content/uploads/2011/02/DQM-Wildcard-max.png"/></a>
+			<a href= "index.html"> <span class="heading">Memory Match</span></a>
+			<div class="button"><a class="reset"href="index.html">RESET</a></div>
+		</header>
+
+		<section class="content">
+
+			<div class="nav_container">
+			<div class="nav_box">
+				<div class="nav_lists stats">Statistics:</div>
+				<div class="nav_lists">Time Played:<div id ="time">0:0:0</div></div>
+				<div class="nav_lists">Number of Times:<div id ="tries">0</div></div>
+				<div class="nav_lists">Accuracy:<div id = "accuracy">0%</div> </div>
+			</div>
+			</div>
+			
+
+
+
+
+			<div class="game_container">
+			<div class="area_box">
+
+
+
+				
+					
+
+					<div class="card_container">
+						<img class="card_front" src="assets/images/british_flag.jpg"/>
+						<img class="card_back" src="assets/images/card_back.png" front="British Flag"
+								onclick="check_card(this)"/>
+					</div>
+
+
+					<div class="card_container">
+						<img class="card_front" src="assets/images/complexity.jpg"/>
+						<img class="card_back" src="assets/images/card_back.png" front="Complexity" 
+								onclick="check_card(this)"/>
+					</div>
+
+					<div class="card_container">
+						<img class="card_front" src="assets/images/starfish.jpg"/>
+						<img class="card_back" src="assets/images/card_back.png" front="Starfish"
+								onclick="check_card(this)"/>		
+					
+					</div>
+
+					<div class="card_container">
+						<img class="card_front" src="assets/images/research1.jpg"/>
+						<img class="card_back" src="assets/images/card_back.png" front="Research"
+								onclick="check_card(this)"/>
+					</div>
+
+					<div class="card_container">
+						<img class="card_front" src="assets/images/dinner-table-settings.jpg"/>
+						<img class="card_back" src="assets/images/card_back.png" front="Dinner Table"
+								onclick="check_card(this)"/>
+					</div>
+
+					<div class="card_container">
+						<img class="card_front" src="assets/images/thinking.jpg"/>
+						<img class="card_back" src="assets/images/card_back.png" front="Thinking"
+								onclick="check_card(this)"/>
+					</div>
+
+
+					
+
+
+
+				
+					<div class="card_container">
+						<img class="card_front" src="assets/images/optional_path.jpg"/>
+						<img class="card_back" src="assets/images/card_back.png" front= "Path" 
+								onclick="check_card(this)" />
+					</div>
+
+					<div class="card_container">
+						<img class="card_front" src="assets/images/pets.jpg"/>
+						<img class="card_back" src="assets/images/card_back.png"  front="Pets"
+								onclick="check_card(this)"/>
+					</div>
+
+					<div class="card_container">
+						<img class="card_front" src="assets/images/card_design_peacock.jpg"/>
+						<img class="card_back" src="assets/images/card_back.png" front="Peacock"
+								onclick="check_card(this)" 
+						/>
+					</div>
+
+					<div class="card_container">
+						<img class="card_front" src="assets/images/card_design_peacock.jpg"/>
+						<img class="card_back" src="assets/images/card_back.png" front="Peacock" 
+								onclick="check_card(this)" 
+						/>
+					</div>
+
+					<div class="card_container">
+						<img class="card_front" src="assets/images/pets.jpg"/>
+						<img class="card_back" src="assets/images/card_back.png" front="Pets"
+								onclick="check_card(this)" 
+						/>
+					</div>
+
+					<div class="card_container">
+						<img class="card_front" src="assets/images/optional_path.jpg"/>
+						<img class="card_back" src="assets/images/card_back.png" front="Path" 
+								onclick="check_card(this)" 
+						/>
+					</div>
+
+
+
+
+
+					<div class="card_container">
+						<img class="card_front" src="assets/images/dinner-table-settings.jpg"/>
+						<img class="card_back" src="assets/images/card_back.png" front="Dinner Table"
+								onclick="check_card(this)" 
+						/>
+					</div>
+
+					<div class="card_container">
+						<img class="card_front" src="assets/images/thinking.jpg"/>
+						<img class="card_back" src="assets/images/card_back.png" front="Thinking"
+								onclick="check_card(this)" 
+						/>
+					</div>
+
+					<div class="card_container">
+						<img class="card_front" src="assets/images/research1.jpg"/>
+						<img class="card_back" src="assets/images/card_back.png" front="Research" 
+								onclick="check_card(this)" 
+						/>
+					</div>
+
+					<div class="card_container">
+						<img class="card_front" src="assets/images/starfish.jpg"/>
+						<img class="card_back" src="assets/images/card_back.png" front="Starfish" 
+								onclick="check_card(this)" 
+						/>
+					</div>
+
+					<div class="card_container">
+						<img class="card_front" src="assets/images/complexity.jpg"/>
+						<img class="card_back" src="assets/images/card_back.png" front="Complexity"
+								onclick="check_card(this)" 
+						/>
+					</div>
+
+					<div class="card_container">
+						<img class="card_front" src="assets/images/british_flag.jpg"/>
+						<img class="card_back" src="assets/images/card_back.png" front="British Flag"
+								onclick="check_card(this)"
+							
+						/>
+					</div>
+
+
+
+			</div>  <!--This closes area box-->
+
+			</div>  <!-- This closes Game Container -->
+
+				
+			
+
+		</section>
+
+
+	</body>
+</html>
+
